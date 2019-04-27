@@ -28,12 +28,12 @@ h1.window-title {
     text-align:center;
     background: #f7f7f7;
 }
-img {
-    max-width: 20%;
+.thumbnail {
+    max-width: 12%;
     border-radius: 4px;
-    padding: 6px;
+    padding: 5px;
 }
-img:hover {
+.thumbnail:hover {
     box-shadow: 0 0 2px 1px rgba(249, 249, 249, 0.7);
 }
 
@@ -45,7 +45,7 @@ img:hover {
     font-family: Open Sans; 
     font-size: 15px;
     content: attr(data-title);
-    padding: 4px 8px;
+    padding: 2px 5px;
     color: #fff;
     position: absolute;
     left: 9px;
@@ -54,10 +54,10 @@ img:hover {
     border-radius: 5px;  
     background:#f0776c;
 }
-.githubThumbnail{
-    display: block;
-    margin-left: 100px;
-    margin-right: auto;
-    margin-top: -50px;
-    width: 100%;
+.thumbnails{
+    padding-top: 10px;
+}
+/* This is CSS Class of AboutPanel. This should not be here..*/
+.Raspimg{
+    max-width: 53%;
 }

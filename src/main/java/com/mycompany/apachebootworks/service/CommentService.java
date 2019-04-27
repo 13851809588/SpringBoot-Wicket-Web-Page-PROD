@@ -31,10 +31,7 @@ public class CommentService {
     }
 
     public List<Comment> getAllComments() {
-        // PELKKÄ ALLA OLEVAN KÄYTTÖ AIHEUTTAA: java.sql.SQLSyntaxErrorException: Unknown column 'comment0_.post_time' in 'field list'
-        // this.commentRepository.findAll()
         System.out.println("getAllComments kommentit noudettu");
-        
         return (List<Comment>) this.commentRepository.findAll();
     }
 

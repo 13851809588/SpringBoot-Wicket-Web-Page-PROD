@@ -16,7 +16,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
  */
 
 @SpringBootApplication
-public class Main extends SpringBootServletInitializer {
+public class Main{
 
     /**
      * @param args the command line arguments
